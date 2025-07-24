@@ -163,12 +163,12 @@ body{
 
 @media screen and (min-width: 1440px) {
   .infoPage {
-    width: 25%;
+    width: 30%;
     height: 85%;
   }
 
   .topPart> img {
-     width: 30%;
+     width: 20%;
      border-radius: 50%;
      margin-bottom: 2vh;
   }
