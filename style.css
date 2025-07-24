@@ -76,7 +76,7 @@ body{
 .topPart h2{
      font-family: var(--Family-inter);
      font-size: 1.5rem;
-     line-height: 40px;
+     line-height: 2.5rem;
 }
 
 .topPart h5{
