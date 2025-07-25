@@ -132,7 +132,7 @@ body{
 @media screen and (min-width: 1440px) {
   .infoPage {
     width: 35%;
-    height: 60%;
+    height: 50%;
   }
 
  .topPart {
@@ -157,15 +157,16 @@ body{
     font-size: var(--Font-size-p);
   }
 .bottomPart{
-      height: calc(100% - 40%);
-      grid-template-rows: repeat(5, 1fr);
+      height: calc(100% - 35%);
+      grid-template-rows: repeat(5, 18%);
 
 }
 
   .links {
     font-size: 1rem;
     width: calc(100% - 4.5rem);
-    height: 75%;
-    /* margin-top: 6vh; */
+    height: 65%;
+    width: calc(100% - 6rem);
+    margin-bottom: 4vh
   }
 }
