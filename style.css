@@ -163,8 +163,8 @@ body{
 
 @media screen and (min-width: 1440px) {
   .infoPage {
-    width: 35%;
-    height: 85%;
+    width: 30%;
+    height: 70%;
   }
 
   .topPart> img {
