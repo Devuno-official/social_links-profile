@@ -35,7 +35,8 @@ html,
 body {
    height: 100%;
    width: 100%;
-   background-color: var(--Grey-900);
+   /* background-color: var(--Grey-900); */
+   background: red;
 }
 
 body{
@@ -49,15 +50,15 @@ body{
 
 
 .infoPage{
-     height: 85%;
-     width: 85%;
+     min-height: 75vh;
+     min-width: 85vw;
      overflow: hidden;
      border-radius: 15px;
 }
 
 .topPart{
-     height: 40%;
-     width: 100%;
+     min-height: 35vh;
+     min-width: inherit;
      background-color: var(--Grey-800);
      overflow: hidden;
      color: black;
@@ -92,8 +93,8 @@ body{
 }
 
 .bottomPart{
-     height: calc(100% - 40%);
-     width: 100%;
+     min-height: 53vh;
+     min-width: inherit;
      background: var(--Grey-800);
      display: grid;
      grid-template-rows: repeat(5, 1fr);
@@ -131,12 +132,12 @@ body{
 
 @media screen and (min-width: 1440px) {
   .infoPage {
-    width: 35%;
-    height: 50%;
+    min-width: 24vw;
+    min-height: 30vh;
   }
 
  .topPart {
-    height: 40%;
+    min-height: 31vh;
   }
 
   .topPart>img {
@@ -157,16 +158,57 @@ body{
     font-size: var(--Font-size-p);
   }
 .bottomPart{
-      height: calc(100% - 35%);
-      grid-template-rows: repeat(5, 18%);
+      min-height: 40vh;
+      grid-template-rows: repeat(5, 20%);
 
 }
 
   .links {
     font-size: 1rem;
-    width: calc(100% - 4.5rem);
-    height: 65%;
-    width: calc(100% - 6rem);
+    width: calc(100% - 2.5rem);
+    height: 75%;
+    margin-bottom: 4vh
+  }
+}
+
+
+@media only screen and (min-width  : 1024px) and (max-width : 1080px){
+     .infoPage {
+    min-width: 37vw;
+    min-height: 28vh;
+  }
+
+ .topPart {
+    min-height: 30vh;
+  }
+
+  .topPart>img {
+     width: 20%;
+     border-radius: 50%;
+     margin-bottom: 2vh;
+  }
+
+  .topPart h2 {
+    font-size: 1.5rem;
+  }
+
+  .topPart h5 {
+    font-size: var(--Font-size-p);
+  }
+
+  .topPart p {
+    font-size: var(--Font-size-p);
+  }
+.bottomPart{
+      min-height: 45vh;
+      grid-template-rows: repeat(5, 20%);
+
+}
+
+  .links {
+    font-size: 1rem;
+    width: calc(100% - 4rem);
+    height: 75%;
     margin-bottom: 4vh
   }
 }
