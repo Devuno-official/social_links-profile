@@ -35,8 +35,7 @@ html,
 body {
    height: 100%;
    width: 100%;
-   /* background-color: var(--Grey-900); */
-   background: red;
+   background-color: var(--Grey-900);
 }
 
 body{
