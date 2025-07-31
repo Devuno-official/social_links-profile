@@ -43,6 +43,7 @@ body{
      flex-direction: column;
      justify-content: center;
      align-items: center;
+ background:var(--Grey-900);
 }
  
 /* mobile first */
